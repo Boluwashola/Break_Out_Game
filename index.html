@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        #gameContainer {
+            text-align: center;
+            color: white;
+        }
+        canvas {
+            border: 2px solid #00ffff;
+            background: #000;
+        }
+        h1 {
+            color: #00ffff;
+            margin-bottom: 20px;
+        }
+        .controls {
+            margin-top: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>🎮 Breakout Game</h1>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="controls">
+            <p>Use ← → or A D keys to move paddle | R to restart</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
