@@ -163,15 +163,6 @@ Break_Out_Game/
 - **Resolution**: 800x600 pixels
 - **Architecture**: Object-oriented design with separate classes for game objects
 
-## 🌐 Deployment Options
-
-| Platform | Cost | Difficulty | Features |
-|----------|------|------------|----------|
-| **GitHub Pages** | Free | Easy | Static hosting |
-| **Netlify** | Free tier | Easy | CDN, custom domains |
-| **AWS Amplify** | ~$1-5/month | Medium | Global CDN, SSL |
-| **Vercel** | Free tier | Easy | Fast deployment |
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
